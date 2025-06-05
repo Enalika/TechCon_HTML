@@ -15,23 +15,31 @@
                 <a href="Register.html">Register</a>
             </nav>
         </header>
-        <main>
+        <main><p>follow us on social media
+            <ul>
            <a href="mailto:email@example.com">email@example.com</a>
            <a href="https://www.techcon.com" target="_blank">Official Website</a>
            <a href="https://twitter.com/techcon" target="_blank">twitter</a>
            <a href="https://www.facebook.com/techcon" target="_blank">facebook</a>
-
-<form action="/submit-form" method="post">
-                <label for="name">Full Name:</label>
-                <input type="text" id="name" name="name" required placeholder="Your Name"> 
+            </ul>
+            </p>   
+            <h2>Location of the Venue</h2> 
+            <iframe src="https://www.google.com/maps/place/Pearl+Of+Africa+Hotel/@0.3236688,32.5760544,17z/data=!4m9!3m8!1s0x177dbb8f92703213:0xabaec8831bda346c!5m2!4m1!1i2!8m2!3d0.3236688!4d32.5786347!16s%2Fm%2F09v520y?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDYwMi4wIKXMDSoASAFQAw%3D%3D"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+     
+            <section>
+            <h2>Contact us Form</h2>
+            <form action="/submit-form" method="post">
+                <label for="name">Enter your Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Your Name"/> 
                 <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" required placeholder="yourname@domain.com">
-                
-                <label>
-                <input type="textarea" name="textarea" required placeholder="Add your message here"/> Write your message  
-                </label>
+                <input type="email" id="email" name="email" required placeholder="yourname@domain.com"/>
+                <label for="message">Write your Message:</label>
+                <textarea id="message" name="message" rows="6" required placeholder="Add your message here">Write your message</textarea>  
                 <button type="submit">Send Message</button> 
-            </form>   
+            </form>  
+            </section> 
         </main>
         <footer><p>&copy;copyright 2024</p></footer>
     </body>
